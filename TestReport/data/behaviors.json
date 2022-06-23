@@ -1,0 +1,119 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "EP001",
+    "children" : [ {
+      "name" : "Validate arc login",
+      "children" : [ {
+        "name" : "Story name: To check login functionality",
+        "children" : [ {
+          "name" : "doLogin",
+          "uid" : "83ce3af588fff173",
+          "parentUid" : "08d9ca53f87b303eddfd15f510d58d1d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646504366271,
+            "stop" : 1646504373584,
+            "duration" : 7313
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\Data_Input.json", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\config\\\\Logs\\\\log4j.properties", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\src\\\\test\\\\java\\\\commons\\\\SystemServer.properties" ]
+        }, {
+          "name" : "doLogin",
+          "uid" : "40a9a5f4f8fb162e",
+          "parentUid" : "08d9ca53f87b303eddfd15f510d58d1d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646504396046,
+            "stop" : 1646504402873,
+            "duration" : 6827
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\Data_Input.json", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\config\\\\Logs\\\\log4j.properties", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\src\\\\test\\\\java\\\\commons\\\\SystemServer.properties" ]
+        } ],
+        "uid" : "08d9ca53f87b303eddfd15f510d58d1d"
+      } ],
+      "uid" : "97d542a9d4a602543ea5ca1623fc5c42"
+    }, {
+      "name" : "Validate the uploaded file",
+      "children" : [ {
+        "name" : "Story name: To check File Upload Functionality",
+        "children" : [ {
+          "name" : "createFolder",
+          "uid" : "1193a5865273c32",
+          "parentUid" : "b3fc6ee1426c20587464f28db58a2320",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646504373837,
+            "stop" : 1646504390302,
+            "duration" : 16465
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\Data_Input.json", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\config\\\\Logs\\\\log4j.properties", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\src\\\\test\\\\java\\\\commons\\\\SystemServer.properties" ]
+        } ],
+        "uid" : "b3fc6ee1426c20587464f28db58a2320"
+      } ],
+      "uid" : "aaf6d91732325d52b789903e8edba876"
+    }, {
+      "name" : "Validate WebBrowser has opened without any error ",
+      "children" : [ {
+        "name" : "Story name: To check CHROME browser has opened",
+        "children" : [ {
+          "name" : "Launching the browser",
+          "uid" : "e57aa015c1544f1f",
+          "parentUid" : "ccf7f8c2446adc91f361af833b89ab6d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646504391406,
+            "stop" : 1646504393034,
+            "duration" : 1628
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\Data_Input.json", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\config\\\\Logs\\\\log4j.properties", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\src\\\\test\\\\java\\\\commons\\\\SystemServer.properties" ]
+        } ],
+        "uid" : "ccf7f8c2446adc91f361af833b89ab6d"
+      } ],
+      "uid" : "93567921ebe4e1c1311172f30a84690c"
+    }, {
+      "name" : "Validate Website Launched successfully",
+      "children" : [ {
+        "name" : "Story name: To check Website has opened without any error",
+        "children" : [ {
+          "name" : "launchWebsite",
+          "uid" : "4ce3839fbfdabf01",
+          "parentUid" : "f4a9bce53c5d95e1225242e977491070",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646504393046,
+            "stop" : 1646504396034,
+            "duration" : 2988
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\Data_Input.json", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\config\\\\Logs\\\\log4j.properties", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\src\\\\test\\\\java\\\\commons\\\\SystemServer.properties" ]
+        } ],
+        "uid" : "f4a9bce53c5d95e1225242e977491070"
+      } ],
+      "uid" : "81c726188261a0acfbadfca4753a38f0"
+    } ],
+    "uid" : "f416afe67be4bfdcd7f18b618c24be1b"
+  }, {
+    "name" : "goToFolder",
+    "uid" : "d876b53142f431fb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646504402878,
+      "stop" : 1646504419509,
+      "duration" : 16631
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\Data_Input.json", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\config\\\\Logs\\\\log4j.properties", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\src\\\\test\\\\java\\\\commons\\\\SystemServer.properties" ]
+  } ]
+}

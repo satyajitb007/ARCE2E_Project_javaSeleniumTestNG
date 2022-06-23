@@ -1,0 +1,168 @@
+{
+  "uid" : "e57aa015c1544f1f",
+  "name" : "Launching the browser",
+  "fullName" : "com.arc.testcasesSecond.VerifyPin.tearUp",
+  "historyId" : "1611749aa4254fd246090a673a197711",
+  "time" : {
+    "start" : 1646504391406,
+    "stop" : 1646504393034,
+    "duration" : 1628
+  },
+  "description" : "Test case Description: verify launching of browser",
+  "descriptionHtml" : "<p>Test case Description: verify launching of browser</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Launching the browser",
+    "time" : {
+      "start" : 1646504358336,
+      "stop" : 1646504362527,
+      "duration" : 4191
+    },
+    "description" : "Test case Description: verify launching of browser",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Browxer is up and running",
+      "time" : {
+        "start" : 1646504362518,
+        "stop" : 1646504362521,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Browxer is up and running"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "description" : "Test case Description: verify launching of browser",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Browxer is up and running",
+      "time" : {
+        "start" : 1646504393033,
+        "stop" : 1646504393033,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Browxer is up and running"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1646504419518,
+      "stop" : 1646504420697,
+      "duration" : 1179
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.arc.testcasesSecond.VerifyPin"
+  }, {
+    "name" : "testClass",
+    "value" : "com.arc.testcasesSecond.VerifyPin"
+  }, {
+    "name" : "testMethod",
+    "value" : "tearUp"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ARCFacilitiesSuit"
+  }, {
+    "name" : "suite",
+    "value" : "ValidateThePin"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.arc.testcasesSecond.VerifyPin"
+  }, {
+    "name" : "host",
+    "value" : "CCU-SABOSE"
+  }, {
+    "name" : "thread",
+    "value" : "14496@CCU-SABOSE.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story name: To check CHROME browser has opened"
+  }, {
+    "name" : "feature",
+    "value" : "Validate WebBrowser has opened without any error "
+  }, {
+    "name" : "owner",
+    "value" : "Satyajit"
+  }, {
+    "name" : "epic",
+    "value" : "EP001"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "jsonFile",
+    "value" : "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\Data_Input.json"
+  }, {
+    "name" : "log4jProp",
+    "value" : "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\config\\\\Logs\\\\log4j.properties"
+  }, {
+    "name" : "propertyFile",
+    "value" : "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\src\\\\test\\\\java\\\\commons\\\\SystemServer.properties"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Satyajit",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e57aa015c1544f1f.json",
+  "parameterValues" : [ "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\Data_Input.json", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\config\\\\Logs\\\\log4j.properties", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\src\\\\test\\\\java\\\\commons\\\\SystemServer.properties" ]
+}

@@ -1,0 +1,6 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","","","0","0","1","0","0"
+"EP001","Validate Website Launched successfully","Story name: To check Website has opened without any error","0","0","1","0","0"
+"EP001","Validate arc login","Story name: To check login functionality","0","0","2","0","0"
+"EP001","Validate WebBrowser has opened without any error ","Story name: To check CHROME browser has opened","0","0","1","0","0"
+"EP001","Validate the uploaded file","Story name: To check File Upload Functionality","0","0","1","0","0"

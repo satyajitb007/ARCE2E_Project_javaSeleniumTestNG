@@ -1,0 +1,176 @@
+{
+  "uid" : "83ce3af588fff173",
+  "name" : "doLogin",
+  "fullName" : "com.arc.testcases.FileUpload_Validation.doLogin",
+  "historyId" : "a3aca29c1dde8c9c26fc425926e95c1a",
+  "time" : {
+    "start" : 1646504366271,
+    "stop" : 1646504373584,
+    "duration" : 7313
+  },
+  "description" : "Test case Description: Login using given credential",
+  "descriptionHtml" : "<p>Test case Description: Login using given credential</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "launchWebsite",
+    "time" : {
+      "start" : 1646504362535,
+      "stop" : 1646504366027,
+      "duration" : 3492
+    },
+    "description" : "Test case Description: verify hitting the URL and it opened successfully",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "URL Hit",
+      "time" : {
+        "start" : 1646504366027,
+        "stop" : 1646504366027,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "URL Hit"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "Launching the browser",
+    "time" : {
+      "start" : 1646504358336,
+      "stop" : 1646504362527,
+      "duration" : 4191
+    },
+    "description" : "Test case Description: verify launching of browser",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Browxer is up and running",
+      "time" : {
+        "start" : 1646504362518,
+        "stop" : 1646504362521,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Browxer is up and running"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1646504390314,
+      "stop" : 1646504391306,
+      "duration" : 992
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.arc.testcases.FileUpload_Validation"
+  }, {
+    "name" : "testClass",
+    "value" : "com.arc.testcases.FileUpload_Validation"
+  }, {
+    "name" : "testMethod",
+    "value" : "doLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ARCFacilitiesSuit"
+  }, {
+    "name" : "suite",
+    "value" : "ValidateFileUploadFeature"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.arc.testcases.FileUpload_Validation"
+  }, {
+    "name" : "host",
+    "value" : "CCU-SABOSE"
+  }, {
+    "name" : "thread",
+    "value" : "14496@CCU-SABOSE.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Validate arc login"
+  }, {
+    "name" : "story",
+    "value" : "Story name: To check login functionality"
+  }, {
+    "name" : "epic",
+    "value" : "EP001"
+  }, {
+    "name" : "owner",
+    "value" : "Satyajit"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "jsonFile",
+    "value" : "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\Data_Input.json"
+  }, {
+    "name" : "log4jProp",
+    "value" : "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\config\\\\Logs\\\\log4j.properties"
+  }, {
+    "name" : "propertyFile",
+    "value" : "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\src\\\\test\\\\java\\\\commons\\\\SystemServer.properties"
+  } ],
+  "links" : [ {
+    "name" : "app.arcfacilities.com",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "owner" : "Satyajit",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "83ce3af588fff173.json",
+  "parameterValues" : [ "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\Data_Input.json", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\config\\\\Logs\\\\log4j.properties", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\src\\\\test\\\\java\\\\commons\\\\SystemServer.properties" ]
+}

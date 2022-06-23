@@ -1,0 +1,142 @@
+{
+  "uid" : "40a9a5f4f8fb162e",
+  "name" : "doLogin",
+  "fullName" : "com.arc.testcasesSecond.VerifyPin.doLogin",
+  "historyId" : "49032877dc10ca49ceec919664175e2a",
+  "time" : {
+    "start" : 1646504396046,
+    "stop" : 1646504402873,
+    "duration" : 6827
+  },
+  "description" : "Test case Description: Login using given credential",
+  "descriptionHtml" : "<p>Test case Description: Login using given credential</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Launching the browser",
+    "time" : {
+      "start" : 1646504358336,
+      "stop" : 1646504362527,
+      "duration" : 4191
+    },
+    "description" : "Test case Description: verify launching of browser",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Browxer is up and running",
+      "time" : {
+        "start" : 1646504362518,
+        "stop" : 1646504362521,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Browxer is up and running"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1646504419518,
+      "stop" : 1646504420697,
+      "duration" : 1179
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.arc.testcasesSecond.VerifyPin"
+  }, {
+    "name" : "testClass",
+    "value" : "com.arc.testcasesSecond.VerifyPin"
+  }, {
+    "name" : "testMethod",
+    "value" : "doLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ARCFacilitiesSuit"
+  }, {
+    "name" : "suite",
+    "value" : "ValidateThePin"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.arc.testcasesSecond.VerifyPin"
+  }, {
+    "name" : "host",
+    "value" : "CCU-SABOSE"
+  }, {
+    "name" : "thread",
+    "value" : "14496@CCU-SABOSE.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "owner",
+    "value" : "Satyajit"
+  }, {
+    "name" : "feature",
+    "value" : "Validate arc login"
+  }, {
+    "name" : "story",
+    "value" : "Story name: To check login functionality"
+  }, {
+    "name" : "epic",
+    "value" : "EP001"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "jsonFile",
+    "value" : "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\Data_Input.json"
+  }, {
+    "name" : "log4jProp",
+    "value" : "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\config\\\\Logs\\\\log4j.properties"
+  }, {
+    "name" : "propertyFile",
+    "value" : "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\src\\\\test\\\\java\\\\commons\\\\SystemServer.properties"
+  } ],
+  "links" : [ {
+    "name" : "app.arcfacilities.com",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "owner" : "Satyajit",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "40a9a5f4f8fb162e.json",
+  "parameterValues" : [ "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\Data_Input.json", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\config\\\\Logs\\\\log4j.properties", "C:\\\\Users\\\\sabose\\\\eclipse-workspace\\\\ARCE2EProject\\\\src\\\\test\\\\java\\\\commons\\\\SystemServer.properties" ]
+}

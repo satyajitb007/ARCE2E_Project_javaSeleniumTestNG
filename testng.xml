@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="ARCFacilitiesSuit" verbose="2" parallel="false"
+	thread-count="4">
+	<parameter name="log4jProp"
+		value="C:\\Users\\sabose\\eclipse-workspace\\ARCE2EProject\\config\\Logs\\log4j.properties" />
+	<parameter name="propertyFile"
+		value="C:\\Users\\sabose\\eclipse-workspace\\ARCE2EProject\\src\\test\\java\\commons\\SystemServer.properties" />
+	<parameter name="jsonFile"
+		value="C:\\Users\\sabose\\eclipse-workspace\\ARCE2EProject\\Data_Input.json" />
+	<test name="ValidateFileUploadFeature">
+		<classes>
+			<class name="com.arc.testcases.FileUpload_Validation" />
+		</classes>
+	</test>
+
+	<test name="ValidateThePin">
+		<classes>
+			<class name="com.arc.testcasesSecond.VerifyPin">
+				<methods>
+					<include name="tearUp" />
+					<include name="launchWebsite" />
+					<include name="doLogin" />
+					<include name="goToFolder" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite --> 

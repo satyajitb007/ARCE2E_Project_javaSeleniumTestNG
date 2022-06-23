@@ -1,0 +1,61 @@
+[ {
+  "uid" : "40a9a5f4f8fb162e",
+  "name" : "doLogin",
+  "time" : {
+    "start" : 1646504396046,
+    "stop" : 1646504402873,
+    "duration" : 6827
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "83ce3af588fff173",
+  "name" : "doLogin",
+  "time" : {
+    "start" : 1646504366271,
+    "stop" : 1646504373584,
+    "duration" : 7313
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d876b53142f431fb",
+  "name" : "goToFolder",
+  "time" : {
+    "start" : 1646504402878,
+    "stop" : 1646504419509,
+    "duration" : 16631
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ce3839fbfdabf01",
+  "name" : "launchWebsite",
+  "time" : {
+    "start" : 1646504393046,
+    "stop" : 1646504396034,
+    "duration" : 2988
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e57aa015c1544f1f",
+  "name" : "Launching the browser",
+  "time" : {
+    "start" : 1646504391406,
+    "stop" : 1646504393034,
+    "duration" : 1628
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1193a5865273c32",
+  "name" : "createFolder",
+  "time" : {
+    "start" : 1646504373837,
+    "stop" : 1646504390302,
+    "duration" : 16465
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]
